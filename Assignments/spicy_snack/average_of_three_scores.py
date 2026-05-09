@@ -23,4 +23,5 @@ def average_score(score_one,score_two,score_three):
 #    else:
 #        return "Invalid Input"
 
+
 print(average_score(56,69,97))
