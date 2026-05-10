@@ -5,7 +5,7 @@
 
 number = int(input("Enter a number: "))
 
-for count in range(1, number+1):
+for count in range(number,0,-1):
     for coloum in range(count, number+1):
         print("*",end="")
 

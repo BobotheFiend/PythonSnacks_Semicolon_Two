@@ -14,7 +14,9 @@ user_input = int(input("Enter the year: "))
 #    if is_leap_year != is_leap_year:
 #        print("Not a leap year")
 
-if user_input % 4 == 0:
+if (user_input % 4 == 0 and user_input % 100 != 0):
+    if (user_input % 400 == 0):
+        print("A leap year")
     print("A Leap Year")
 else:
     print("Not a Leap Year")
