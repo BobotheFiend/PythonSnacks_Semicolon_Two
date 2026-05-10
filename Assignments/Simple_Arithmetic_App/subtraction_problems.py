@@ -7,9 +7,9 @@
 
 import random
 
-def random_subtraction():
+def random_subtraction(number):
         
-    number = int(input("How many questions would you like to answer[10,20,25,30...etc]: "))
+#    number = int(input("How many questions would you like to answer[10,20,25,30...etc]: "))
     
 #    number_one = random.randint(1, 1000+1)
 #    number_two = random.randint(0, number_one)
