@@ -5,8 +5,8 @@
 
 number = int(input("Enter a number: "))
 
-for count in range(number+1,0,-1):
-    for coloumn in range(count):
+for count in range(number,0,-1):
+    for coloumn in range(count,0,-1):
         print(coloumn,end="")
 
     print(" ")    
